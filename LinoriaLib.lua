@@ -49,7 +49,7 @@ local Library = {
 
     Notifications = {},
 
-    ToggleKeybind = Enum.KeyCode.RightShift,
+    ToggleKeybind = Enum.KeyCode.RightAlt,
     TweenInfo = TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
     NotifyTweenInfo = TweenInfo.new(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
 
@@ -256,7 +256,7 @@ local Templates = {
         NotifySide = "Right",
         ShowCustomCursor = true,
         Font = Enum.Font.Code,
-        ToggleKeybind = Enum.KeyCode.RightShift,
+        ToggleKeybind = Enum.KeyCode.RightAlt,
         MobileButtonsSide = "Left",
     },
     Toggle = {
